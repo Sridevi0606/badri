@@ -1,0 +1,53 @@
+.box{
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+.section{
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  background-color: white;
+
+}
+.section h1{
+  font-size:30px;
+  font-family: 'Lora', serif;
+}
+.section h2{
+  font-size:26px;
+  font-family: 'Lora', serif;
+}
+.parent .child2 img{
+  margin-top: 60px;
+  height: 300px;
+  width:300px;
+}
+.box i{
+  font-size: 30px;
+  text-align: center;
+  justify-content: center;
+}
+
+.box h1{
+  margin-top: 30px;
+  font-size: 36px;
+  text-align: center;
+}
+.box p{
+  margin-top: 0px;
+  font-size: 18px;
+  text-align: center;
+}
+
+
+.box a:link, a:visited {
+  background-color: rgb(7, 133, 147);
+  color:rgba(3, 3, 70, 0.961);
+  padding: 20px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.box a:hover, a:active {
+  background-color: grey;
+}

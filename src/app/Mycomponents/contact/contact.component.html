@@ -1,0 +1,60 @@
+<head>
+
+
+</head>
+<title>Contact Us | Vithal Gutti</title>
+<body>
+  <br><br>
+
+  <section class="section5">
+    <section class="text5">
+      <h2>Contact Details</h2>
+    </section>
+  </section>
+       <section class="parent">
+        <section class="child">
+          <img src="https://thumbs.dreamstime.com/b/contact-us-concept-wooden-blocks-email-mail-telephone-icons-website-page-contact-us-e-mail-marketing-contact-us-192902959.jpg" alt="">
+        </section>
+        <section class="child2">
+          <p class="vithal">Vithal P Gutti & Co <br>
+           Chartered Accountants </p>
+           <p>  <a href="https://maps.app.goo.gl/EP5mBZUcFXMK9mGy9" target="_blank"><i class="fa-solid fa-location-dot" id="loc"></i></a> 5th Cross C B Nagar <br>
+            Dharwad 580007 <br>
+            <a href="mailto:cavithalgutti@gmail.com"><i class="fa-regular fa-envelope"></i></a>  cavithalgutti@gmail.com<br>
+            <a href="tel:86188662343"><i class="fa-solid fa-phone"></i> </a> +91 86186 62343</p>   </section>
+      </section>
+  <br><br>
+      <p class="services2">
+        Contact Us
+      </p>
+      <div class="container">
+        <h2 class="text-center mb-5">Please fill the form to reach out</h2>
+        <div class="row">
+        <div class="col-md-6 offset-md-3">
+        <form [formGroup]="FormData" (ngSubmit)="onSubmit(FormData.value)"><div class="form-group">
+          <div class="form-group">
+            <label for="fullname">Full Name</label>
+            <input type="text" class="form-control" name="Fullname" placeholder="Full Name" formControlName="Fullname">
+            </div>
+          <label for="Email">Email</label>
+        <input type="email" class="form-control" name="Email" aria-describedby="emailHelp" placeholder="Enter email"formControlName="Email">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+          <label for="fullname">Phone Number</label>
+          <input type="text" class="form-control" name="Phone" placeholder="Phone" formControlName="Phone">
+          </div>
+        <div class="form-group">
+        <label for="comment">Comment</label>
+        <textarea class="form-control" formControlName="Comment" name="Comment" placeholder="Message">
+        </textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" [disabled]="!FormData.valid">Submit</button>
+        </form>
+        </div>
+        </div>
+        </div>
+       <app-footer>
+    </app-footer>
+
+  </body>

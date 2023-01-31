@@ -1,0 +1,183 @@
+body{
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+.section5 .text5 h2{
+  font-size: 30px;
+  text-align: center;
+  color:rgba(5, 6, 50, 0.961);
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 30px;
+}
+
+.section5 img{
+  margin-top:100px;
+ height: 300px;
+ margin-right:250px;
+
+}
+
+.services{
+  text-align: center;
+  font-size: 32px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 60px;
+
+}
+.section5 .text5 h2{
+  font-size: 30px;
+  text-align: center;
+  color:rgba(5, 6, 50, 0.961);
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 30px;
+}
+
+
+
+
+
+/* Add a background color and some padding around the form */
+
+.parent{
+  display: flex;
+  margin: 0px 100px;
+  justify-content: space-around;
+}
+
+.child{
+  float :left;
+  width:50%;
+  color:rgba(5, 6, 50, 0.961);
+}
+
+
+.child p{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+.child2{
+  float :left;
+  width:50%;
+  text-align: center;
+  padding: 80px 50px;
+  background-color: rgb(203, 216, 226);
+  color:rgba(5, 6, 50, 0.961);
+
+
+}
+
+.child img{
+  height: 350px;
+  width:550px;
+}
+
+.child2 h1{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 32px;
+
+}
+
+.child li{
+  font-size: 22px;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 40px 40px;
+}
+.services{
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.services2{
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+.service2{
+  text-align: center;
+  font-size: 28px;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+input[type=text], select, textarea {
+  font-family: 'Times New Roman', Times, serif;
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+
+  margin-bottom: 16px; /* Bottom margin */
+   color:rgba(3, 3, 70, 0.961);
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  border: none;
+  padding: 12px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: rgb(203, 216, 226);
+  color:rgba(5, 6, 50, 0.961);
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  color:rgba(5, 6, 50, 0.961);
+  margin-top: 50px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.container h2{
+  text-align: center;
+  font-size: 28px;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+.section5{
+  width:100%;
+  color:rgba(5, 6, 50, 0.961);
+}
+
+.section5 .text5 h2{
+  font-size: 30px;
+  text-align: center;
+  color:rgba(5, 6, 50, 0.961);
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 30px;
+}
+
+
+  @media(max-width:778px){
+    .parent{
+      display: flex;
+      margin: 0px 0px;
+    }
+
+    .child img{
+      font-family: 'Times New Roman', Times, serif;
+      height:200px;
+      width:200px;
+
+    }
+    .child2 {
+      bottom: 0;
+      width:70%;
+     font-size: 15px;
+     padding: 10px 5px;
+     }
+
+     .vithal{
+      margin-top:0;
+     }
+    }

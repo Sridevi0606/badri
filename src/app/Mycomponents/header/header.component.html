@@ -1,0 +1,40 @@
+<head>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Nunito&family=Nunito+Sans&display=swap');
+    </style>>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+
+<mat-toolbar>
+  <span><img src="https://static.wixstatic.com/media/ee33ff_7ff65972e26e469ca61b7e73c2b8d56c~mv2.jpeg/v1/fill/w_152,h_80,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ca-logo-india.jpeg">
+  </span><span><h1>Vithal P Gutti & Co</h1>
+   <p class="charter"> Chartered Accountants</p></span>
+
+    <div class="spacer"></div>
+<div class="menu_icon" [class.menu_icon_Class]="menu_icon_variable" (click)="openMenu()">
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+   <div class="menu" [class.menuClass]="menuVariable">
+    <ul >
+    <li> <a mat-button routerLink="">Home</a></li>
+    <li><div class="dropdown"> <a mat-button class="dropbtn" routerLink="service">Services</a>
+      <div class="dropdown-content">
+        <a href="" routerLink="individuals">For Individuals</a><br>
+          <a href="" routerLink="business" class="business">For Business Entities</a>
+      </div>
+    </div></li>
+      <li><a mat-button routerLink="about">About Us</a></li>
+
+    <li><a mat-button routerLink="career">Career</a></li>
+
+    <li><a mat-button routerLink="contact">Contact Us</a></li>
+    </ul>
+   </div>
+
+
+
+
+</mat-toolbar>

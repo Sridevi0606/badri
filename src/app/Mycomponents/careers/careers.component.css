@@ -1,0 +1,66 @@
+h1{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 35px;
+  text-align: center;
+}
+h3{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 26px;
+  text-align: center;
+}
+
+
+.section5{
+  background-color: rgb(17, 105, 26);
+  color:rgba(231, 231, 246, 0.961);
+  font-family: 'Times New Roman', Times, serif;
+  margin:50px 250px;
+  text-align: center;
+}
+
+.section5 h2{
+  size: 36px;
+}
+.box a{
+  margin-top: 20px;
+  font-size: 24px;
+  color:rgb(0, 15, 2);
+  text-align: left;
+  display: inline-block;
+}
+.section5 p{
+  font-size: 20px;
+
+}
+.box{
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  background-color: rgb(203, 216, 226);
+ color:rgba(5, 6, 50, 0.961);
+  margin: 40px 150px;
+  padding: 20px 20px;
+}
+.box i{
+  font-size: 30px;
+  text-align: center;
+  justify-content: center;
+}
+
+.box h1{
+  margin-top: 30px;
+  font-size: 3px;
+  text-align: center;
+}
+.box p{
+  margin-top: 30px;
+  font-size: 18px;
+  margin :10px 10px;
+  text-align: center;
+}
+
+
+@media(max-width:778px){
+  .box{
+    margin:10px 10px;
+  }
+}

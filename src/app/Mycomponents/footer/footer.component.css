@@ -1,0 +1,46 @@
+.footer{
+  background-color: rgb(4, 2, 34);
+  color:rgba(231, 231, 246, 0.961);
+  justify-content: space-between;
+  display:flex;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 60px;
+}
+
+.footer .social{
+  text-align: center;
+  background-color: rgb(4, 2, 34);
+  color:rgba(235, 34, 182, 0.961);
+
+}
+
+.footer .social a{
+  margin-top: 0px;
+  font-size: 24px;
+  color: inherit;
+  border: 3px solid #ccc;
+  width :40px;
+  height:40px;
+  display:inline-block;
+  text-align: center;
+  border-radius: 60%;
+  margin: 10px 12px;
+  opacity: 0.75;
+
+
+}
+
+.footer .social a:hover{
+  opacity: 1.5;
+
+
+}
+
+
+.footer .copyright{
+  margin-top: 10px;
+  text-align: left;
+  font-size: 20px;
+  margin-right: 100px;
+  color: white;
+}
